@@ -1,0 +1,60 @@
+@extends('admin.layouts.app')
+
+@section('panel')
+<div class="row gy-3">
+    <div class="col-12 d-flex justify-content-between align-items-center mb-3">
+        <h4 class="mb-0">{{ __($pageTitle ?? 'Create Benefit Override') }}</h4>
+        <a href="{{ route('admin.benefit-overrides.index') }}" class="btn btn--dark"><i class="las la-arrow-left"></i> @lang('Back')</a>
+    </div>
+
+    <div class="col-12">
+        <div class="card">
+            <form method="post" action="{{ route('admin.benefit-overrides.store') }}">
+                @csrf
+                <div class="card-body">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label class="form-label">@lang('User (username or email)')</label>
+                            <input type="text" name="user_identifier" value="{{ old('user_identifier') }}" class="form-control" required>
+                            @error('user_identifier') <small class="text-danger">{{ $message }}</small> @enderror
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">@lang('Benefit type')</label>
+                            <select name="type" class="form-control" required>
+                                @foreach($allowedTypes as $t)
+                                    <option value="{{ $t }}" @selected(old('type')===$t)>{{ $t }}</option>
+                                @endforeach
+                            </select>
+                            @error('type') <small class="text-danger">{{ $message }}</small> @enderror
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">@lang('Value')</label>
+                            <input type="number" step="0.01" name="value" value="{{ old('value', 0) }}" class="form-control" required>
+                            @error('value') <small class="text-danger">{{ $message }}</small> @enderror
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label">@lang('Starts at')</label>
+                            <input type="datetime-local" name="starts_at" value="{{ old('starts_at') }}" class="form-control">
+                            @error('starts_at') <small class="text-danger">{{ $message }}</small> @enderror
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label">@lang('Ends at')</label>
+                            <input type="datetime-local" name="ends_at" value="{{ old('ends_at') }}" class="form-control">
+                            @error('ends_at') <small class="text-danger">{{ $message }}</small> @enderror
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-check form-switch mt-2">
+                                <input class="form-check-input" type="checkbox" id="is_active" name="is_active" value="1" {{ old('is_active', 1) ? 'checked' : '' }}>
+                                <label class="form-check-label" for="is_active">@lang('Active')</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer d-flex justify-content-end gap-2">
+                    <button class="btn btn--primary">@lang('Save')</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+@endsection
