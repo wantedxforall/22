@@ -22,7 +22,7 @@ $policyPages = getContent('policy_pages.element',false,null,true);
                             <div class="col-sm-12">
                                 <div class="form-group">
                                     <label class="form--label">@lang('Reference by')</label>
-                                    <input type="text" class="form--control" name="referBy" id="referenceBy" value="{{session()->get('reference')}}"  readonly>
+                                    <input type="text" class="form--control" name="referBy" id="referenceBy" value="{{ e(session()->get('reference')) }}"  readonly>
                                 </div>
                             </div>
                             @endif

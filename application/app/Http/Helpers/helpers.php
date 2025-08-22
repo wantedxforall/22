@@ -56,8 +56,10 @@ function activeTemplate($asset = false)
 {
     $general = gs();
     $template = $general->active_template;
-    if ($asset)
-    return 'assets/presets/' . $template . '/';
+    $template = preg_replace('/[^a-zA-Z0-9_]/', '', $template);
+    if ($asset) {
+        return 'assets/presets/' . $template . '/';
+    }
     return 'presets.' . $template . '.';
 }
 
@@ -176,10 +178,16 @@ function getTemplates()
 
 function getPageSections($arr = false)
 {
-    $jsonUrl = resource_path('views/') . str_replace('.', '/', activeTemplate()) . 'sections/builder/builder.json';
+    $basePath = realpath(resource_path('views'));
+    $jsonUrl = $basePath . DIRECTORY_SEPARATOR . str_replace('.', '/', activeTemplate()) . 'sections/builder/builder.json';
+    $realPath = realpath($jsonUrl);
+    if ($realPath === false || strpos($realPath, $basePath) !== 0 || !is_file($realPath)) {
+        return $arr ? [] : (object) [];
+    }
+    $contents = file_get_contents($realPath);
+    $sections = json_decode($contents, $arr);
     $sections = json_decode(file_get_contents($jsonUrl));
     if ($arr) {
-        $sections = json_decode(file_get_contents($jsonUrl), true);
         ksort($sections);
     }
     return $sections;

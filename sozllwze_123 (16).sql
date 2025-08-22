@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Aug 21, 2025 at 04:56 PM
+-- Generation Time: Aug 21, 2025 at 09:27 PM
 -- Server version: 10.6.16-MariaDB-cll-lve
 -- PHP Version: 7.4.33
 
@@ -163,7 +163,8 @@ INSERT INTO `admin_notifications` (`id`, `user_id`, `title`, `read_status`, `cli
 (88, 2, 'Plan Subscribe from 123123', 0, '/admin/manage/users/detail/2', '2025-08-22 02:34:39', '2025-08-22 02:34:39'),
 (89, 2, 'Plan Subscribe from 123123', 0, '/admin/manage/users/detail/2', '2025-08-22 02:35:59', '2025-08-22 02:35:59'),
 (90, 2, 'Plan Subscribe from 123123', 0, '/admin/manage/users/detail/2', '2025-08-22 02:36:20', '2025-08-22 02:36:20'),
-(91, 2, 'Plan Subscribe from 123123', 0, '/admin/manage/users/detail/2', '2025-08-22 02:40:14', '2025-08-22 02:40:14');
+(91, 2, 'Plan Subscribe from 123123', 0, '/admin/manage/users/detail/2', '2025-08-22 02:40:14', '2025-08-22 02:40:14'),
+(92, 8, 'Plan Subscribe from wwwwwwwwww', 0, '/tash/manage/users/detail/8', '2025-08-22 04:38:35', '2025-08-22 04:38:35');
 
 -- --------------------------------------------------------
 
@@ -397,10 +398,8 @@ INSERT INTO `deposits` (`id`, `user_id`, `plan_id`, `method_code`, `amount`, `or
 (38, 2, NULL, 115, 2.00000000, NULL, 'LYD', 0.00000000, 1.00000000, 2.00000000, NULL, '0', '', 'W8AA4VUOZ1J3', 0, 0, 0, NULL, '2025-07-29 09:41:36', '2025-07-29 09:41:36'),
 (39, 2, NULL, 115, 2.00000000, NULL, 'LYD', 0.00000000, 1.00000000, 2.00000000, NULL, '0', '', 'J3NSSPJYJPXS', 0, 0, 0, NULL, '2025-07-29 09:42:22', '2025-07-29 09:42:22'),
 (40, 6, NULL, 115, 5.00000000, NULL, 'LYD', 0.00000000, 1.00000000, 5.00000000, NULL, '0', '', 'TEY5JQUC4SP6', 0, 0, 0, NULL, '2025-07-29 10:02:24', '2025-07-29 10:02:24'),
-(41, 8, NULL, 115, 1.00000000, NULL, 'LYD', 0.00000000, 1.00000000, 1.00000000, NULL, '0', '', 'C6QVJFDQHB64', 0, 0, 0, NULL, '2025-08-01 03:11:02', '2025-08-01 03:11:02'),
 (42, 7, NULL, 115, 7.00000000, NULL, 'LYD', 0.00000000, 1.00000000, 7.00000000, NULL, '0', '', 'PR7KW67ERMER', 0, 0, 0, NULL, '2025-08-01 02:58:02', '2025-08-01 02:58:02'),
 (44, 2, NULL, 115, 1.00000000, NULL, 'LYD', 0.00000000, 1.00000000, 1.00000000, NULL, '0', '', '747DEZKCG37N', 0, 0, 0, NULL, '2025-08-01 23:09:40', '2025-08-01 23:09:40'),
-(45, 8, NULL, 115, 4.00000000, NULL, 'LYD', 0.00000000, 1.00000000, 4.00000000, NULL, '0', '', 'J3MFZT7BMBH4', 0, 0, 0, NULL, '2025-08-05 21:09:01', '2025-08-05 21:09:01'),
 (46, 7, NULL, 115, 3.00000000, NULL, 'LYD', 0.00000000, 1.00000000, 3.00000000, NULL, '0', '', 'JRBMBE47JHMD', 0, 0, 0, NULL, '2025-08-06 16:41:41', '2025-08-06 16:41:41'),
 (47, 7, NULL, 115, 1.00000000, NULL, 'LYD', 0.00000000, 1.00000000, 1.00000000, NULL, '0', '', 'C3UVNOQGB7XF', 0, 0, 0, NULL, '2025-08-07 03:34:14', '2025-08-07 03:34:14'),
 (48, 7, NULL, 115, 1.00000000, NULL, 'LYD', 0.00000000, 1.00000000, 1.00000000, NULL, '0', '', '4HZMGZN8RVXD', 0, 0, 0, NULL, '2025-08-07 04:26:19', '2025-08-07 04:26:19'),
@@ -414,8 +413,6 @@ INSERT INTO `deposits` (`id`, `user_id`, `plan_id`, `method_code`, `amount`, `or
 (77, 7, NULL, 115, 1.00000000, NULL, 'LYD', 0.00000000, 1.00000000, 1.00000000, NULL, '0', '', '3ECMY2ZQJ273', 0, 0, 0, NULL, '2025-08-11 07:03:42', '2025-08-11 07:03:42'),
 (78, 7, NULL, 115, 1.00000000, NULL, 'LYD', 0.00000000, 1.00000000, 1.00000000, NULL, '0', '', 'HMJ3KQGN6X6X', 0, 0, 0, NULL, '2025-08-11 07:09:30', '2025-08-11 07:09:30'),
 (79, 7, NULL, 115, 9.00000000, NULL, 'LYD', 0.00000000, 1.00000000, 9.00000000, NULL, '0', '', 'UXVO9DOAGGNN', 0, 0, 0, NULL, '2025-08-11 07:10:54', '2025-08-11 07:10:54'),
-(86, 8, NULL, 115, 50.00000000, NULL, 'LYD', 0.00000000, 1.00000000, 50.00000000, NULL, '0', '', 'NGHA2J66ZFKQ', 0, 0, 0, NULL, '2025-08-19 23:17:08', '2025-08-19 23:17:08'),
-(87, 8, NULL, 115, 5.00000000, NULL, 'LYD', 0.00000000, 1.00000000, 5.00000000, NULL, '0', '', 'SGQKU5H5HKXH', 0, 0, 0, NULL, '2025-08-19 23:20:11', '2025-08-19 23:20:11'),
 (89, 10, NULL, 115, 2.00000000, NULL, 'LYD', 0.00000000, 2.00000000, 2.00000000, '\"{\\\"provider\\\":\\\"libyana\\\",\\\"user_phone\\\":\\\"920000000\\\",\\\"dest_phone\\\":\\\"0924261960\\\",\\\"rate\\\":2,\\\"provider_msg\\\":\\\"<div class=\\\\\\\"alert alert-primary\\\\\\\">Success Transaction<\\\\\\/div>\\\",\\\"extotal\\\":2}\"', '0', '', 'PQQDP8N5P682', 0, 1, 0, NULL, '2025-08-20 05:28:27', '2025-08-20 07:44:08'),
 (90, 10, NULL, 115, 3.00000000, NULL, NULL, 0.00000000, 2.00000000, 3.00000000, NULL, NULL, NULL, '19KAZYEM6P08', 0, 1, 0, NULL, '2025-08-20 07:31:05', '2025-08-20 07:31:05'),
 (91, 10, NULL, 115, 2.00000000, NULL, NULL, 0.00000000, 2.00000000, 2.00000000, NULL, NULL, NULL, '37TEIVQLZHKE', 0, 1, 0, NULL, '2025-08-20 07:33:43', '2025-08-20 07:33:43'),
@@ -479,7 +476,8 @@ INSERT INTO `deposits` (`id`, `user_id`, `plan_id`, `method_code`, `amount`, `or
 (159, 3, NULL, 115, 1.50000000, NULL, 'USD', 0.00000000, 2.00000000, 3.00000000, '\"{\\\"provider\\\":\\\"libyana\\\",\\\"user_phone\\\":\\\"920000000\\\",\\\"dest_phone\\\":\\\"0924261960\\\",\\\"provider_msg\\\":\\\"<div class=\\\\\\\"alert alert-primary\\\\\\\">Success Transaction<\\\\\\/div>\\\",\\\"info_rate\\\":2,\\\"entered_lyd\\\":3,\\\"provider_amt\\\":1.5,\\\"confirmed_by\\\":\\\"computed_by_rate\\\"}\"', NULL, NULL, 'PRNADAGU6X35', 0, 1, 0, NULL, '2025-08-20 16:10:52', '2025-08-20 16:10:52'),
 (160, 3, NULL, 115, 1.00000000, NULL, 'USD', 0.00000000, 2.00000000, 2.00000000, '\"{\\\"provider\\\":\\\"libyana\\\",\\\"user_phone\\\":\\\"920000000\\\",\\\"dest_phone\\\":\\\"0924261960\\\",\\\"provider_msg\\\":\\\"<div class=\\\\\\\"alert alert-primary\\\\\\\">Success Transaction<\\\\\\/div>\\\",\\\"info_rate\\\":2,\\\"entered_lyd\\\":2,\\\"provider_amt\\\":1,\\\"confirmed_by\\\":\\\"computed_by_rate\\\"}\"', NULL, NULL, '3RXBZZSU4RFC', 0, 1, 0, NULL, '2025-08-20 16:11:52', '2025-08-20 16:11:52'),
 (161, 3, NULL, 115, 0.17000000, NULL, 'USD', 0.00000000, 12.00000000, 2.00000000, '\"{\\\"provider\\\":\\\"libyana\\\",\\\"user_phone\\\":\\\"920000000\\\",\\\"dest_phone\\\":\\\"0924261944\\\",\\\"provider_msg\\\":\\\"<div class=\\\\\\\"alert alert-primary\\\\\\\">Success Transaction<\\\\\\/div>\\\",\\\"info_rate\\\":12,\\\"entered_lyd\\\":2,\\\"provider_amt\\\":0.17,\\\"confirmed_by\\\":\\\"computed_by_rate\\\"}\"', NULL, NULL, '0B94CRB3FTPD', 0, 1, 0, NULL, '2025-08-20 16:21:19', '2025-08-20 16:21:19'),
-(162, 3, NULL, 116, 1.00000000, NULL, 'USD', 0.00000000, 12.00000000, 12.00000000, '\"{\\\"provider\\\":\\\"almadar\\\",\\\"user_phone\\\":\\\"218910000000\\\",\\\"dest_phone\\\":\\\"218913363413\\\",\\\"provider_msg\\\":\\\"<div class=\\\\\\\"alert alert-primary\\\\\\\">Success Transaction<\\\\\\/div>\\\",\\\"info_rate\\\":12,\\\"entered_lyd\\\":12,\\\"provider_amt\\\":1,\\\"confirmed_by\\\":\\\"computed_by_rate\\\"}\"', NULL, NULL, 'OIOOJV8WIXDH', 0, 1, 0, NULL, '2025-08-20 16:29:31', '2025-08-20 16:29:31');
+(162, 3, NULL, 116, 1.00000000, NULL, 'USD', 0.00000000, 12.00000000, 12.00000000, '\"{\\\"provider\\\":\\\"almadar\\\",\\\"user_phone\\\":\\\"218910000000\\\",\\\"dest_phone\\\":\\\"218913363413\\\",\\\"provider_msg\\\":\\\"<div class=\\\\\\\"alert alert-primary\\\\\\\">Success Transaction<\\\\\\/div>\\\",\\\"info_rate\\\":12,\\\"entered_lyd\\\":12,\\\"provider_amt\\\":1,\\\"confirmed_by\\\":\\\"computed_by_rate\\\"}\"', NULL, NULL, 'OIOOJV8WIXDH', 0, 1, 0, NULL, '2025-08-20 16:29:31', '2025-08-20 16:29:31'),
+(163, 8, NULL, 115, 0.17000000, NULL, 'USD', 0.00000000, 12.00000000, 2.00000000, '\"{\\\"provider\\\":\\\"libyana\\\",\\\"user_phone\\\":\\\"920000000\\\",\\\"dest_phone\\\":\\\"0924261944\\\",\\\"provider_msg\\\":\\\"<div class=\\\\\\\"alert alert-primary\\\\\\\">Success Transaction<\\\\\\/div>\\\",\\\"info_rate\\\":12,\\\"entered_lyd\\\":2,\\\"provider_amt\\\":0.17,\\\"confirmed_by\\\":\\\"computed_by_rate\\\"}\"', NULL, NULL, '5N3Y989HMTPJ', 0, 1, 0, NULL, '2025-08-22 04:18:44', '2025-08-22 04:18:44');
 
 -- --------------------------------------------------------
 
@@ -732,7 +730,7 @@ CREATE TABLE `general_settings` (
 --
 
 INSERT INTO `general_settings` (`id`, `site_name`, `cur_text`, `cur_sym`, `email_from`, `email_template`, `sms_body`, `sms_from`, `base_color`, `secondary_color`, `mail_config`, `sms_config`, `global_shortcodes`, `kv`, `ev`, `en`, `sv`, `sn`, `force_ssl`, `maintenance_mode`, `secure_password`, `agree`, `registration`, `active_template`, `deduct_credits`, `add_credits`, `given_credits`, `auto_approved`, `system_info`, `created_at`, `updated_at`, `apify_token`, `daily_login_credits`, `withdraw_rate`, `withdraw_notify_email`, `withdraw_rate_phone`, `withdraw_rate_usdt`, `withdraw_min_phone`, `withdraw_min_usdt`, `almadar_wallet`) VALUES
-(1, 'جهاد الدبانة', 'USD', '$', 'abdo@debana.x10.mx', '<p>Hi {{fullname}} ({{username}}),&nbsp;</p><p>{{message}}</p>', 'Hi {{fullname}} ({{username}}), \r\n{{message}}', 'Minstack', '4430b5', '060662', '{\"name\":\"smtp\",\"host\":\"mail.debana.x10.mx\",\"port\":\"587\",\"enc\":\"tls\",\"username\":\"abdo@debana.x10.mx\",\"password\":\"Ab3@1234\"}', '{\"name\":\"nexmo\",\"clickatell\":{\"api_key\":\"----------------\"},\"infobip\":{\"username\":null,\"password\":null},\"message_bird\":{\"api_key\":null},\"nexmo\":{\"api_key\":\"85c23125\",\"api_secret\":\"Qjd2wvzDFhPMNuAG\"},\"sms_broadcast\":{\"username\":null,\"password\":null},\"twilio\":{\"account_sid\":\"-----------------------\",\"auth_token\":\"---------------------------\",\"from\":\"----------------------\"},\"text_magic\":{\"username\":null,\"apiv2_key\":null},\"custom\":{\"method\":\"get\",\"url\":\"https:\\/\\/hostname\\/demo-api-v1\",\"headers\":{\"name\":[\"api_key\"],\"value\":[\"test_api 555\"]},\"body\":{\"name\":[\"from_number\"],\"value\":[\"5657545757\"]}}}', '{\n    \"site_name\":\"Name of your site\",\n    \"site_currency\":\"Currency of your site\",\n    \"currency_symbol\":\"Symbol of currency\"\n}', 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 'default', 1, 1, 20, 1, '[]', NULL, '2025-08-21 05:47:42', 'apify_api_FqQ1zT2oZ5f7LDyJFsbsYIsNwpHF7g42CDwB', 1, 0.00, NULL, 0.50, 0.70, 120.00000000, 10.00000000, '218910000000');
+(1, 'جهاد الدبانة', 'USD', '$', 'abdo@debana.x10.mx', '<p>Hi {{fullname}} ({{username}}),&nbsp;</p><p>{{message}}</p>', 'Hi {{fullname}} ({{username}}), \r\n{{message}}', 'Minstack', '4430b5', '060662', '{\"name\":\"smtp\",\"host\":\"mail.debana.x10.mx\",\"port\":\"587\",\"enc\":\"tls\",\"username\":\"abdo@debana.x10.mx\",\"password\":\"Ab3@1234\"}', '{\"name\":\"nexmo\",\"clickatell\":{\"api_key\":\"----------------\"},\"infobip\":{\"username\":null,\"password\":null},\"message_bird\":{\"api_key\":null},\"nexmo\":{\"api_key\":\"85c23125\",\"api_secret\":\"Qjd2wvzDFhPMNuAG\"},\"sms_broadcast\":{\"username\":null,\"password\":null},\"twilio\":{\"account_sid\":\"-----------------------\",\"auth_token\":\"---------------------------\",\"from\":\"----------------------\"},\"text_magic\":{\"username\":null,\"apiv2_key\":null},\"custom\":{\"method\":\"get\",\"url\":\"https:\\/\\/hostname\\/demo-api-v1\",\"headers\":{\"name\":[\"api_key\"],\"value\":[\"test_api 555\"]},\"body\":{\"name\":[\"from_number\"],\"value\":[\"5657545757\"]}}}', '{\n    \"site_name\":\"Name of your site\",\n    \"site_currency\":\"Currency of your site\",\n    \"currency_symbol\":\"Symbol of currency\"\n}', 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 'default', 1, 1, 20, 1, '[]', NULL, '2025-08-22 06:07:58', 'apify_api_FqQ1zT2oZ5f7LDyJFsbsYIsNwpHF7g42CDwB', 1, 0.00, NULL, 10.00, 10.00, 120.00000000, 10.00000000, '218910000000');
 
 -- --------------------------------------------------------
 
@@ -782,7 +780,8 @@ CREATE TABLE `levels` (
 --
 
 INSERT INTO `levels` (`id`, `name`, `min_points_spent`, `priority`, `badge`, `is_active`, `created_at`, `updated_at`) VALUES
-(1, 'bronz', 1, 1, NULL, 1, '2025-08-21 01:12:14', '2025-08-22 02:49:20');
+(1, 'Bronz', 222, 1, NULL, 1, '2025-08-21 01:12:14', '2025-08-22 05:54:41'),
+(2, 'selver', 444, 2, NULL, 1, '2025-08-22 04:01:32', '2025-08-22 05:54:49');
 
 -- --------------------------------------------------------
 
@@ -814,7 +813,8 @@ INSERT INTO `level_benefits` (`id`, `level_id`, `type`, `value`, `is_active`, `c
 (20, 1, 'post_completion_bonus_points', 4.0000, 1, '2025-08-21 05:13:46', '2025-08-21 05:13:46'),
 (21, 1, 'post_creation_cost_reduction_percent', 50.0000, 1, '2025-08-21 05:13:53', '2025-08-21 05:13:53'),
 (23, 1, 'withdraw_min_usdt_reduction_fixed', 4.0000, 1, '2025-08-21 05:14:05', '2025-08-21 06:20:27'),
-(24, 1, 'withdraw_min_phone_reduction_fixed', 100.0000, 1, '2025-08-21 05:33:49', '2025-08-21 06:20:30');
+(24, 1, 'withdraw_min_phone_reduction_fixed', 100.0000, 1, '2025-08-21 05:33:49', '2025-08-21 06:20:30'),
+(25, 2, 'bonus_points_percent', 10.0000, 1, '2025-08-22 04:03:15', '2025-08-22 04:03:15');
 
 -- --------------------------------------------------------
 
@@ -941,7 +941,9 @@ INSERT INTO `notification_logs` (`id`, `user_id`, `sender`, `sent_from`, `sent_t
 (87, 2, 'smtp', 'abdo@debana.x10.mx', 'abdocenter1000@gmail.com', 'You\'ve subscribed successfully', '<p>Hi abdo ali (123123),&nbsp;</p><p><p>You\'ve subscribed to <strong>0</strong> plan. The price <strong>0.30 {{currency}}</strong>. The transaction number is #<strong>NSSHV3DJW9GW</strong>. Your current is<strong> 316.92 {{currency}}</strong></p></p>', 'email', '2025-08-22 02:34:39', '2025-08-22 02:34:39'),
 (88, 2, 'smtp', 'abdo@debana.x10.mx', 'abdocenter1000@gmail.com', 'You\'ve subscribed successfully', '<p>Hi abdo ali (123123),&nbsp;</p><p><p>You\'ve subscribed to <strong>0</strong> plan. The price <strong>0.30 {{currency}}</strong>. The transaction number is #<strong>TC3UDTPEEUS1</strong>. Your current is<strong> 316.62 {{currency}}</strong></p></p>', 'email', '2025-08-22 02:35:59', '2025-08-22 02:35:59'),
 (89, 2, 'smtp', 'abdo@debana.x10.mx', 'abdocenter1000@gmail.com', 'You\'ve subscribed successfully', '<p>Hi abdo ali (123123),&nbsp;</p><p><p>You\'ve subscribed to <strong>0</strong> plan. The price <strong>0.30 {{currency}}</strong>. The transaction number is #<strong>DN41XWJFW8NC</strong>. Your current is<strong> 316.32 {{currency}}</strong></p></p>', 'email', '2025-08-22 02:36:20', '2025-08-22 02:36:20'),
-(90, 2, 'smtp', 'abdo@debana.x10.mx', 'abdocenter1000@gmail.com', 'You\'ve subscribed successfully', '<p>Hi abdo ali (123123),&nbsp;</p><p><p>You\'ve subscribed to <strong>0</strong> plan. The price <strong>1.00 {{currency}}</strong>. The transaction number is #<strong>342DWGFZR35P</strong>. Your current is<strong> 315.32 {{currency}}</strong></p></p>', 'email', '2025-08-22 02:40:14', '2025-08-22 02:40:14');
+(90, 2, 'smtp', 'abdo@debana.x10.mx', 'abdocenter1000@gmail.com', 'You\'ve subscribed successfully', '<p>Hi abdo ali (123123),&nbsp;</p><p><p>You\'ve subscribed to <strong>0</strong> plan. The price <strong>1.00 {{currency}}</strong>. The transaction number is #<strong>342DWGFZR35P</strong>. Your current is<strong> 315.32 {{currency}}</strong></p></p>', 'email', '2025-08-22 02:40:14', '2025-08-22 02:40:14'),
+(91, 8, 'smtp', 'abdo@debana.x10.mx', 'alsalam3laykom33@gmail.com', 'Your Account has been Credited', '<p>Hi Its Me (wwwwwwwwww),&nbsp;</p><p><div><div style=\"font-family: Montserrat, sans-serif;\">1,000,000.00 USD has been added to your account .</div><div style=\"font-family: Montserrat, sans-serif;\"><br></div><div style=\"font-family: Montserrat, sans-serif;\">Transaction Number : B2MMY2EHWXW6</div><div style=\"font-family: Montserrat, sans-serif;\"><br></div><span style=\"color: rgb(33, 37, 41); font-family: Montserrat, sans-serif;\">Your Current Balance is :&nbsp;</span><font style=\"font-family: Montserrat, sans-serif;\"><span style=\"font-weight: bolder;\">1,000,010.26&nbsp; USD&nbsp;</span></font><br></div><div><font style=\"font-family: Montserrat, sans-serif;\"><span style=\"font-weight: bolder;\"><br></span></font></div><div>Admin note:&nbsp;<span style=\"color: rgb(33, 37, 41); font-size: 12px; font-weight: 600; white-space: nowrap; text-align: var(--bs-body-text-align);\">123456789</span></div></p>', 'email', '2025-08-22 04:37:49', '2025-08-22 04:37:49'),
+(92, 8, 'smtp', 'abdo@debana.x10.mx', 'alsalam3laykom33@gmail.com', 'You\'ve subscribed successfully', '<p>Hi Its Me (wwwwwwwwww),&nbsp;</p><p><p>You\'ve subscribed to <strong>Gold</strong> plan. The price <strong>300.00 {{currency}}</strong>. The transaction number is #<strong>GTXD4QQHP37N</strong>. Your current is<strong> 999,710.26 {{currency}}</strong></p></p>', 'email', '2025-08-22 04:38:35', '2025-08-22 04:38:35');
 
 -- --------------------------------------------------------
 
@@ -1067,10 +1069,10 @@ CREATE TABLE `plans` (
 --
 
 INSERT INTO `plans` (`id`, `name`, `price`, `credits`, `content`, `status`, `created_at`, `updated_at`) VALUES
-(1, '10', 10.00000000, 12, '[null]', 1, '2025-07-03 21:32:27', '2025-07-03 21:32:27'),
-(2, '12', 12.00000000, 12, '[\"12\"]', 1, '2025-07-16 04:38:18', '2025-07-16 04:38:18'),
-(3, '1222', 1.00000000, 111111, '[null]', 1, '2025-07-17 03:04:24', '2025-07-17 03:04:24'),
-(4, '0', 1.00000000, 1000, '[null]', 1, '2025-07-31 17:50:56', '2025-08-21 04:05:41');
+(1, 'Platinum', 10.00000000, 100, '[null,null]', 1, '2025-07-03 21:32:27', '2025-08-22 03:57:08'),
+(2, 'Gold', 1000.00000000, 100000, '[\"12\"]', 1, '2025-07-16 04:38:18', '2025-08-22 03:55:57'),
+(3, 'Silver', 10.00000000, 1000, '[null]', 1, '2025-07-17 03:04:24', '2025-08-22 03:54:09'),
+(4, 'Bronz', 1.00000000, 10, '[null]', 1, '2025-07-31 17:50:56', '2025-08-22 03:53:52');
 
 -- --------------------------------------------------------
 
@@ -1261,8 +1263,9 @@ INSERT INTO `reward_orders` (`id`, `token`, `user_id`, `reward_item_id`, `price_
 (22, '76c7a93b-d719-4e8b-89ab-14269c94f470', 2, 9, 777, 'cancelled', NULL, 1, '2025-08-19 00:56:10', NULL, '2025-08-19 00:55:52', '2025-08-19 00:56:10'),
 (23, 'b61622f8-a53d-4a5e-bc5d-e3e03e423e5e', 2, 6, 44, 'approved', NULL, 1, '2025-08-19 00:57:07', '23423434', '2025-08-19 00:56:58', '2025-08-19 00:57:07'),
 (24, '0f01595c-0169-47f4-9c4e-1cf6acda85d8', 10, 9, 777, 'approved', NULL, 1, '2025-08-19 08:18:13', '2345345f34q52345', '2025-08-19 08:17:53', '2025-08-19 08:18:13'),
-(25, 'a801e3ed-f7f8-4876-9c5f-5c5e3592c709', 8, 9, 777, 'pending', NULL, NULL, NULL, NULL, '2025-08-19 23:16:12', '2025-08-19 23:16:12'),
-(26, 'e749e3a4-8279-459d-89c8-f65e00f1062e', 2, 5, 55, 'pending', NULL, NULL, NULL, NULL, '2025-08-21 03:04:53', '2025-08-21 03:04:53');
+(25, 'a801e3ed-f7f8-4876-9c5f-5c5e3592c709', 8, 9, 777, 'approved', '10UC', 1, '2025-08-22 04:48:05', 'T3cdAyBM2T58u075r1', '2025-08-19 23:16:12', '2025-08-22 04:48:05'),
+(26, 'e749e3a4-8279-459d-89c8-f65e00f1062e', 2, 5, 55, 'pending', NULL, NULL, NULL, NULL, '2025-08-21 03:04:53', '2025-08-21 03:04:53'),
+(27, '54f5e3ab-f410-47c4-a6af-41b1d5bd562e', 8, 9, 777, 'pending', NULL, NULL, NULL, NULL, '2025-08-22 04:38:57', '2025-08-22 04:38:57');
 
 -- --------------------------------------------------------
 
@@ -1309,7 +1312,7 @@ INSERT INTO `services` (`id`, `user_id`, `category_id`, `name`, `link`, `platfor
 (40, 2, 1, 'inst', 'https://www.instagram.com/malak_said97', 'instagram', '', 1, 3, 1, '2025-08-01 03:04:04', '2025-08-01 22:49:05', 1, 1, 'followers'),
 (41, 2, 3, 'متابعين تيك توك', 'https://www.tiktok.com/@wxf45', 'tiktok', '', 1, 5, 0, '2025-08-01 22:51:36', '2025-08-02 00:59:19', 1, 1, 'followers'),
 (42, 2, 2, 'متابعين انستقرام', 'https://www.instagram.com/abdocenter/', 'instagram', '', 1, 2, 3, '2025-08-01 22:56:27', '2025-08-21 06:27:24', 1, 1, 'followers'),
-(43, 2, 2, 'انستقرام', 'https://www.instagram.com/abdocenter.tn', 'instagram', '', 1, 66, 3, '2025-08-01 22:58:33', '2025-08-21 22:56:35', 1, 1, 'followers'),
+(43, 2, 2, 'انستقرام', 'https://www.instagram.com/abdocenter.tn', 'instagram', '', 1, 66, 4, '2025-08-01 22:58:33', '2025-08-22 04:15:52', 1, 1, 'followers'),
 (44, 8, 1, '2', 'https://www.facebook.com/AbdoCenter1', 'facebook', '', 1, 15, 3, '2025-08-05 22:42:56', '2025-08-06 04:34:28', 1, 1, 'followers'),
 (45, 7, 3, '5', 'https://www.tiktok.com/@wxf45', 'tiktok', '', 1, 5, 0, '2025-08-06 16:56:54', '2025-08-06 16:56:54', 1, 1, 'followers'),
 (46, 7, 3, '5', 'https://www.tiktok.com/@wxf45', 'tiktok', '', 1, 5, 0, '2025-08-06 16:56:54', '2025-08-06 16:56:54', 1, 1, 'followers'),
@@ -1414,7 +1417,8 @@ INSERT INTO `service_views` (`id`, `service_id`, `user_id`, `view_date`, `credit
 (65, 42, 4, '2025-08-21', 1, '2025-08-21 06:27:24', '2025-08-21 06:27:24'),
 (66, 43, 10, '2025-08-21', 1, '2025-08-21 22:56:35', '2025-08-21 22:56:35'),
 (67, 53, 10, '2025-08-21', 1, '2025-08-21 23:14:03', '2025-08-21 23:14:03'),
-(68, 52, 10, '2025-08-21', 1, '2025-08-21 23:22:09', '2025-08-21 23:22:09');
+(68, 52, 10, '2025-08-21', 1, '2025-08-21 23:22:09', '2025-08-21 23:22:09'),
+(69, 43, 8, '2025-08-22', 1, '2025-08-22 04:15:52', '2025-08-22 04:15:52');
 
 -- --------------------------------------------------------
 
@@ -1763,7 +1767,13 @@ INSERT INTO `social_checks` (`id`, `service_id`, `user_id`, `followers_before`, 
 (322, 43, 10, 6244, 6245, 1, 'confirmed', '2025-08-21 22:55:53', '2025-08-21 22:56:35'),
 (323, 53, 10, 70227, 70227, 0, 'failed', '2025-08-21 23:12:26', '2025-08-21 23:12:40'),
 (324, 53, 10, 70227, 70228, 1, 'confirmed', '2025-08-21 23:13:28', '2025-08-21 23:14:03'),
-(325, 52, 10, 923, 924, 1, 'confirmed', '2025-08-21 23:21:53', '2025-08-21 23:22:09');
+(325, 52, 10, 923, 924, 1, 'confirmed', '2025-08-21 23:21:53', '2025-08-21 23:22:09'),
+(326, 56, 2, 70221, NULL, NULL, 'pending', '2025-08-22 04:14:15', '2025-08-22 04:14:15'),
+(327, 43, 8, 6244, NULL, NULL, 'pending', '2025-08-22 04:14:28', '2025-08-22 04:14:28'),
+(328, 43, 8, 6245, 6245, 0, 'failed', '2025-08-22 04:14:48', '2025-08-22 04:14:56'),
+(329, 43, 8, 6244, NULL, NULL, 'pending', '2025-08-22 04:15:14', '2025-08-22 04:15:14'),
+(330, 43, 8, 6244, NULL, NULL, 'pending', '2025-08-22 04:15:34', '2025-08-22 04:15:34'),
+(331, 43, 8, 6244, 6245, 1, 'confirmed', '2025-08-22 04:15:39', '2025-08-22 04:15:52');
 
 -- --------------------------------------------------------
 
@@ -2163,7 +2173,12 @@ INSERT INTO `transactions` (`id`, `user_id`, `amount`, `charge`, `post_balance`,
 (288, 2, 0.30000000, 0.00000000, 316.92000000, '-', 'NSSHV3DJW9GW', 'Subscribe plan (discount 70%)', 'Subscribe_Plan', '2025-08-22 02:34:39', '2025-08-22 02:34:39'),
 (289, 2, 0.30000000, 0.00000000, 316.62000000, '-', 'TC3UDTPEEUS1', 'Subscribe plan (discount 70%)', 'Subscribe_Plan', '2025-08-22 02:35:59', '2025-08-22 02:35:59'),
 (290, 2, 0.30000000, 0.00000000, 316.32000000, '-', 'DN41XWJFW8NC', 'Subscribe plan (discount 70%)', 'Subscribe_Plan', '2025-08-22 02:36:20', '2025-08-22 02:36:20'),
-(291, 2, 1.00000000, 0.00000000, 315.32000000, '-', '342DWGFZR35P', 'Subscribe plan', 'Subscribe_Plan', '2025-08-22 02:40:14', '2025-08-22 02:40:14');
+(291, 2, 1.00000000, 0.00000000, 315.32000000, '-', '342DWGFZR35P', 'Subscribe plan', 'Subscribe_Plan', '2025-08-22 02:40:14', '2025-08-22 02:40:14'),
+(292, 8, 1.00000000, 0.00000000, 189.00000000, '+', '3QPKKSHSGFK4', 'Daily login bonus', 'daily_login_bonus', '2025-08-22 03:54:44', '2025-08-22 03:54:44'),
+(293, 8, 0.17000000, 0.00000000, 10.26000000, '+', 'QGJX4Z8SGRFN', '920000000.68a59fd0ea801/12', 'balance_add', '2025-08-22 04:18:44', '2025-08-22 04:18:44'),
+(294, 8, 1000000.00000000, 0.00000000, 1000010.26000000, '+', 'B2MMY2EHWXW6', '123456789', 'balance_add', '2025-08-22 04:37:49', '2025-08-22 04:37:49'),
+(295, 8, 300.00000000, 0.00000000, 999710.26000000, '-', 'GTXD4QQHP37N', 'Subscribe plan (discount 70%)', 'Subscribe_Plan', '2025-08-22 04:38:35', '2025-08-22 04:38:35'),
+(296, 2, 12.00000000, 0.00000000, 287073.00000000, '+', 'U2GTPY1YDR4T', 'Withdraw cancelled (refund)', 'withdraw_cancelled', '2025-08-22 06:27:57', '2025-08-22 06:27:57');
 
 -- --------------------------------------------------------
 
@@ -2209,13 +2224,13 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `firstname`, `lastname`, `username`, `email`, `country_code`, `mobile`, `ref_by`, `balance`, `credits`, `password`, `image`, `address`, `status`, `kyc_data`, `kv`, `ev`, `sv`, `reg_step`, `ver_code`, `ver_code_send_at`, `ts`, `tv`, `tsc`, `ban_reason`, `remember_token`, `last_daily_login_at`, `created_at`, `updated_at`) VALUES
 (1, 'Mohammed', 'Aldeeb', 'mohammed', 'memo20t80@gmail.com', 'LY', '218949008261', 0, 1.00000000, 121, '$2y$10$4.wABPoitPbIMM8Dfi36SOk8yBrQGlujGft7GNX8KPH08PgN2i.OC', NULL, 'eyJpdiI6Ikc3MWYzaEVGZHVJSlNCblVzVzNOaXc9PSIsInZhbHVlIjoiSXRlMjdXbEFsOGIvTkVtV3JVYmpSV09Ca2VGOGF2am52Z2FJRTQ2ODJ3V3RpOTNHd1NvalZUZUd6a3h5bVdCVU1uWnFCK0JQZ2xQdVc0dTZuUEtBOVhwZkpuTzdyRVlIVzFoMGNsakF4OGdWSTkvbEpwSmgvZWxrckpBNHJhZEsiLCJtYWMiOiIxMDM5ZDRlYzUwMmFmNmU5YjA1NjU1MjA0MGY2YzI1MzhmZjdjMTYyYTljMWU0MDJkYzBiYzA5M2Q4ZDBjNDcwIiwidGFnIjoiIn0=', 1, NULL, 0, 0, 0, 1, '669836', '2025-08-20 07:45:32', 0, 1, NULL, NULL, '4uMm56oiBwaKps7AGXdQthUv65fKDNM11wI9e74kpCrJcaxv7Go6BeCoDHkh', NULL, '2025-07-03 23:45:37', '2025-08-20 11:45:32'),
-(2, 'abdo', 'ali', '123123', 'abdocenter1000@gmail.com', 'LY', '218913363413', 0, 315.32000000, 288525, '$2y$10$QO9G6AxqB2wMRha3TeCBp.E.GMqPPntkWNECB2LLixooZwxzYf/.m', '123123/2/6894285d615e41754540125.jpg', 'eyJpdiI6Ik42MGk3MWFnbENvSkpmaXRNVmkxcXc9PSIsInZhbHVlIjoidmRDMWFXSExqVHNZemxGMzVwdVlxeHJXVkxxT3BwcERIWVN4Nk91RkQzVnFRV0hEczdzQktORFpmVzQ4VjhmbldacktrcmVpWkthcE5DS3AzWm1KQ21SLzBYbjY0MFEzaUZWMi9rTzdvY2FEeVIyMGNsd1NxVEFsdVRxa0dtd0QiLCJtYWMiOiIzMWQ1OTAwODcxNzEzYzNiNzM0MzMyYzdkMGVkNWY5NGEzNzI4MDM3NDA5NmE1ZjllMmM0Y2IyZTNjMzljOTJhIiwidGFnIjoiIn0=', 1, NULL, 0, 1, 0, 1, NULL, NULL, 0, 1, NULL, NULL, 'PO0Xx15UGtc1xaTbtLihfmyM3BoTDFM399eXHzFnTA1R5uNJYaRwVLMI5iDh', '2025-08-21 23:25:28', '2025-07-03 23:48:18', '2025-08-22 02:40:14'),
+(2, 'abdo', 'ali', '123123', 'abdocenter1000@gmail.com', 'LY', '218913363413', 0, 315.32000000, 287073, '$2y$10$QO9G6AxqB2wMRha3TeCBp.E.GMqPPntkWNECB2LLixooZwxzYf/.m', '123123/2/6894285d615e41754540125.jpg', 'eyJpdiI6Ik42MGk3MWFnbENvSkpmaXRNVmkxcXc9PSIsInZhbHVlIjoidmRDMWFXSExqVHNZemxGMzVwdVlxeHJXVkxxT3BwcERIWVN4Nk91RkQzVnFRV0hEczdzQktORFpmVzQ4VjhmbldacktrcmVpWkthcE5DS3AzWm1KQ21SLzBYbjY0MFEzaUZWMi9rTzdvY2FEeVIyMGNsd1NxVEFsdVRxa0dtd0QiLCJtYWMiOiIzMWQ1OTAwODcxNzEzYzNiNzM0MzMyYzdkMGVkNWY5NGEzNzI4MDM3NDA5NmE1ZjllMmM0Y2IyZTNjMzljOTJhIiwidGFnIjoiIn0=', 1, NULL, 0, 1, 0, 1, NULL, NULL, 0, 1, NULL, NULL, 'PO0Xx15UGtc1xaTbtLihfmyM3BoTDFM399eXHzFnTA1R5uNJYaRwVLMI5iDh', '2025-08-21 23:25:28', '2025-07-03 23:48:18', '2025-08-22 06:27:57'),
 (3, '111', '111', 'tl6udf456', 'netflix.4kac9@gmail.com', 'LY', '21811111111', 0, 25.17000000, 674, '$2y$10$3V.DpS4ZZmhO8mgWuenW2..ZiORcFiZZ4n/bnnbQXNa4ibjU5kzVW', NULL, NULL, 1, NULL, 1, 1, 1, 1, NULL, NULL, 0, 1, NULL, NULL, NULL, '2025-08-20 13:17:23', '2025-07-03 21:17:45', '2025-08-20 16:31:06'),
 (4, '234234', '234234', 'rrrrrr', '234@gmail.com', 'LY', '218234234234', 0, 10.00000000, 275, '$2y$10$TAQ5ue7T/SwsR9OdiNjs.ucMP02o5Q2HK10qXgTaXiRoMH2nQzV1q', NULL, NULL, 1, NULL, 1, 1, 1, 1, NULL, NULL, 0, 1, NULL, NULL, NULL, NULL, '2025-07-03 22:09:54', '2025-08-21 06:27:24'),
 (5, 'abdo123', '123', 'tl6udf4562', '2342@gmail.com', 'LY', '218234234', 0, 0.00000000, 41, '$2y$10$AGhA3TlFMqTkFHW8B9tMK.5blh07WCp7ntzBHHWpuC9IpaSlf36xK', NULL, NULL, 1, NULL, 1, 1, 1, 1, NULL, NULL, 0, 1, NULL, NULL, NULL, NULL, '2025-07-03 23:57:54', '2025-07-17 12:36:13'),
 (6, 'abdo', '1212', '121212', '12121000@gmail.com', 'LY', '218121212', 0, 0.00000000, 43, '$2y$10$3XxGcQrPv/RFdrr2OggmrOBXjn7eyn45zGap7nOK/lS9sjzZbhhcy', NULL, NULL, 1, NULL, 1, 1, 1, 1, NULL, NULL, 0, 1, NULL, NULL, NULL, '2025-08-15 21:24:19', '2025-07-16 09:28:13', '2025-08-21 23:14:03'),
 (7, '2121', '212', '212121', '1212r1000@gmail.com', 'LY', '21812121', 0, 94.54000000, 1035, '$2y$10$2OsEXJh.9fjTPAX9tPDiHuYsZstLBzisyEQ6G8byXjGjHB2OaPqwe', '212121/7/6893c6cea78551754515150.png', 'eyJpdiI6IkFrNnAzL0dnaTBlYnVmNk5RZktvYXc9PSIsInZhbHVlIjoiMWovUG5rYVBiRUZaMFFhTytDOVIyQ1JFcWYwVlJTUEw4S3FKTVNnelUxNjV1UGRoN2ZrRG55WnBWeE41R05oNW5xRWdTNHZEK3dpNzEvS01WN0VRZmVKMWYwSWVwTjdiSGZOWHRiWERhYlE9IiwibWFjIjoiZjlkYjEwYzJmMWQ4OGMzYTZmYmU0MTljNTdmZDI5YzFhYmQ5OGFiMTBkYjBkZjg4ZWFjNmQyZWExNTU2NDhmNSIsInRhZyI6IiJ9', 1, NULL, 1, 1, 1, 1, NULL, NULL, 0, 1, NULL, NULL, '9l7KXjxCg5DBRBDoODq5wCIcHqDoqEaTCW7A9lEv09aB04L04xomPqnupbV2', '2025-08-21 00:37:19', '2025-07-16 11:14:57', '2025-08-21 00:37:19'),
-(8, 'Its', 'Me', 'wwwwwwwwww', 'alsalam3laykom33@gmail.com', 'LY', '218922463247', 0, 10.09000000, 188, '$2y$10$UgkbSmHXp4zh5Tq1m4R3G.oT7pjLexDYb2Ef7Tox3nLZFDGeWRRKW', NULL, 'eyJpdiI6IktFZndMWFEyNU01ME92Yk5EMW8zRGc9PSIsInZhbHVlIjoiVG84cWdYTUVyWkVGNDJTSkcya2l1UGpwY2lPNVNCRTRUa0hUWHlPb0hMQVpYOWp5aXFac3JxQXoyVmRPY0Fib05lZFBqMWxkbDVOVEYwbUV3ai9ZVGtvNkRMWno2YjIzaHQyaDBhenRRZGVNcTdISWxxbnFZRTdQWXN1NFFMMUQiLCJtYWMiOiJmMDUzMTMxNzM3MGRhYmZhODc1YWU4Yjk3NGY4ZTMwMzMzOTI3NGU2ZDhjNGI4MmM5NGIxYzdhNTY2MmM0MGFkIiwidGFnIjoiIn0=', 1, NULL, 0, 1, 0, 1, NULL, NULL, 0, 1, NULL, NULL, NULL, '2025-08-19 21:45:44', '2025-07-31 23:16:54', '2025-08-19 23:23:08'),
+(8, 'Its', 'Me', 'wwwwwwwwww', 'alsalam3laykom33@gmail.com', 'LY', '218922463247', 0, 999710.26000000, 199680, '$2y$10$UgkbSmHXp4zh5Tq1m4R3G.oT7pjLexDYb2Ef7Tox3nLZFDGeWRRKW', NULL, 'eyJpdiI6IktFZndMWFEyNU01ME92Yk5EMW8zRGc9PSIsInZhbHVlIjoiVG84cWdYTUVyWkVGNDJTSkcya2l1UGpwY2lPNVNCRTRUa0hUWHlPb0hMQVpYOWp5aXFac3JxQXoyVmRPY0Fib05lZFBqMWxkbDVOVEYwbUV3ai9ZVGtvNkRMWno2YjIzaHQyaDBhenRRZGVNcTdISWxxbnFZRTdQWXN1NFFMMUQiLCJtYWMiOiJmMDUzMTMxNzM3MGRhYmZhODc1YWU4Yjk3NGY4ZTMwMzMzOTI3NGU2ZDhjNGI4MmM5NGIxYzdhNTY2MmM0MGFkIiwidGFnIjoiIn0=', 1, NULL, 0, 1, 0, 1, NULL, NULL, 0, 1, NULL, NULL, NULL, '2025-08-22 03:54:43', '2025-07-31 23:16:54', '2025-08-22 04:38:57'),
 (9, '123123', '123', 'abdo123', 'abdocentrer1000@gmail.com', 'LY', '218926536457', 0, 0.00000000, 999, '$2y$10$c3DkiD8GLPkcWNOSQ306Yua2ELSF8NA8cQOgIf9WYceOUCUdLLDr6', NULL, 'eyJpdiI6Im5ETEJrSmZMdWR1QnFpT1ZSeG1aakE9PSIsInZhbHVlIjoiT0tzSy92eXRUaFdKNS95dVpYTW4xZVRKUTh4Nk9QOVdvcjMxRFhFTG1mOVBsUnFZdXFtWVRHOHNEcTcxVjh6djBHcjk4VGtMWTZ5d2tWYWtmdmNaMkNOdkNsaXZ0dGN2bUZJQWkyTE16RXFFRkZJcXlwbjVoVXhEcDR5VTRRQk0iLCJtYWMiOiJjNDVjYjk4OTdlMWVlYjJhYTBmOTliMjJkMDYyZmE5MGQxODYwODAyZTI4YzM3NjYwNmMxNWM3YjY4MDhkMzUxIiwidGFnIjoiIn0=', 1, NULL, 0, 0, 0, 1, '326709', '2025-08-19 04:16:54', 0, 1, NULL, NULL, NULL, NULL, '2025-08-07 02:27:26', '2025-08-19 08:16:54'),
 (10, 'abdo', '123123', '1232323', 'abdocenter10000@gmail.com', 'LY', '218123123123', 2, 675.20000000, 4165, '$2y$10$aTlJttsCiCiWrsFVg41raOVMyi34Og.BJRMI.YjlLDdMhAgYjapMa', NULL, 'eyJpdiI6ImlMNHJIbFBDOWNNeWIyYTh2TEFBcFE9PSIsInZhbHVlIjoicm5jQVlUMkJkMXV5aTE3cVBwdUtBWWhDN2ZLbk1qVEIxUFBZVlFGOXBuWmNHQWZoYTQvUWUxMU1YL0gzc2x5SkxNOGJNYitIQlZEWTZKNElheDlkbnByZlNuWXRXSmpMYTJheml5cEd3bUNtM2xtYWdwby9LYTFHdXJYR2VLQVBDNTZVa0tzSGNlV2dBRkMrS1pFbjF3PT0iLCJtYWMiOiI3ZDE0ZmY2MDZjOGZkOGIwOTliM2IzNDZhNWQ1OTk0MzVmNTVhOGU2ODc5NDQ3NzA2OThmNzRlMGZmMmY0Y2Y2IiwidGFnIjoiIn0=', 1, NULL, 1, 1, 1, 1, NULL, NULL, 0, 1, NULL, NULL, NULL, NULL, '2025-08-07 06:08:56', '2025-08-21 23:22:09');
 
@@ -2243,7 +2258,7 @@ CREATE TABLE `user_benefit_overrides` (
 --
 
 INSERT INTO `user_benefit_overrides` (`id`, `user_id`, `type`, `value`, `is_active`, `starts_at`, `ends_at`, `notes`, `created_at`, `updated_at`) VALUES
-(13, 2, 'bonus_points_percent', 11.0000, 1, '2025-08-01 04:00:00', '2025-08-30 03:59:59', NULL, '2025-08-22 02:49:47', '2025-08-22 02:49:47');
+(15, 8, 'post_creation_cost_reduction_percent', 10.0000, 1, '2025-08-22 04:11:25', '2025-08-29 04:11:25', NULL, '2025-08-22 04:11:25', '2025-08-22 04:11:25');
 
 -- --------------------------------------------------------
 
@@ -2266,10 +2281,11 @@ CREATE TABLE `user_levels` (
 --
 
 INSERT INTO `user_levels` (`id`, `user_id`, `level_id`, `points_spent`, `achieved_at`, `created_at`, `updated_at`) VALUES
-(1, 2, 1, 22, '2025-08-22 02:51:29', '2025-08-22 02:51:29', '2025-08-22 02:51:29'),
+(1, 2, NULL, 22, '2025-08-22 06:53:57', '2025-08-22 06:53:57', '2025-08-22 06:53:57'),
 (2, 10, NULL, 6, '2025-08-21 05:54:31', '2025-08-21 23:22:09', '2025-08-21 23:22:09'),
 (3, 6, 1, 3, NULL, '2025-08-21 06:00:56', '2025-08-21 06:00:56'),
-(4, 4, 1, 8, '2025-08-21 06:27:24', '2025-08-21 06:27:24', '2025-08-21 06:27:24');
+(4, 4, 1, 8, '2025-08-21 06:27:24', '2025-08-21 06:27:24', '2025-08-21 06:27:24'),
+(5, 8, 1, 5, '2025-08-22 04:38:36', '2025-08-22 04:38:36', '2025-08-22 04:38:36');
 
 -- --------------------------------------------------------
 
@@ -2304,7 +2320,8 @@ INSERT INTO `user_level_histories` (`id`, `user_id`, `from_level_id`, `to_level_
 (8, 2, NULL, NULL, 1, 23, '2025-08-21 05:59:19', '2025-08-21 05:59:19', '2025-08-21 05:59:19'),
 (9, 4, NULL, NULL, 1, 6, '2025-08-21 06:00:56', '2025-08-21 06:00:56', '2025-08-21 06:00:56'),
 (10, 4, NULL, NULL, 1, 7, '2025-08-21 06:02:28', '2025-08-21 06:02:28', '2025-08-21 06:02:28'),
-(11, 4, NULL, NULL, 1, 8, '2025-08-21 06:27:24', '2025-08-21 06:27:24', '2025-08-21 06:27:24');
+(11, 4, NULL, NULL, 1, 8, '2025-08-21 06:27:24', '2025-08-21 06:27:24', '2025-08-21 06:27:24'),
+(12, 8, NULL, NULL, 1, 6, '2025-08-22 04:15:52', '2025-08-22 04:15:52', '2025-08-22 04:15:52');
 
 -- --------------------------------------------------------
 
@@ -2421,7 +2438,8 @@ INSERT INTO `user_logins` (`id`, `user_id`, `user_ip`, `city`, `country`, `count
 (87, 7, '41.254.81.110', 'Tripoli', 'Libya', 'LY', '13.1796', '32.8908', 'Handheld Browser', 'iPhone', '2025-08-21 00:37:20', '2025-08-21 00:37:20'),
 (88, 3, '41.254.81.110', 'Tripoli', 'Libya', 'LY', '13.1796', '32.8908', 'Chrome', 'Windows 10', '2025-08-21 01:11:37', '2025-08-21 01:11:37'),
 (89, 2, '41.254.81.235', 'Tripoli', 'Libya', 'LY', '13.1796', '32.8908', 'Chrome', 'Windows 10', '2025-08-21 23:25:28', '2025-08-21 23:25:28'),
-(90, 2, '41.254.81.235', 'Tripoli', 'Libya', 'LY', '13.1796', '32.8908', 'Chrome', 'Windows 10', '2025-08-21 23:28:42', '2025-08-21 23:28:42');
+(90, 2, '41.254.81.235', 'Tripoli', 'Libya', 'LY', '13.1796', '32.8908', 'Chrome', 'Windows 10', '2025-08-21 23:28:42', '2025-08-21 23:28:42'),
+(91, 8, '156.38.51.30', 'Tripoli', 'Libya', 'LY', '13.1796', '32.8908', 'Chrome', 'Android', '2025-08-22 03:54:44', '2025-08-22 03:54:44');
 
 -- --------------------------------------------------------
 
@@ -2462,10 +2480,16 @@ INSERT INTO `withdrawals` (`id`, `user_id`, `phone`, `binance_id`, `method`, `st
 (34, 10, NULL, '2134324', 'usdt', '2', 'user', 1.00000000, 0.70000000, '2025-08-15 16:34:14', '2025-08-15 16:34:17'),
 (35, 2, '12121212', NULL, 'phone', '2', 'admin', 1.00000000, 0.50000000, '2025-08-15 17:30:13', '2025-08-15 22:30:09'),
 (36, 2, '920000000', NULL, 'phone', '1', NULL, 1.00000000, 0.50000000, '2025-08-15 17:31:29', '2025-08-15 22:30:11'),
-(37, 2, '123123', NULL, 'phone', '0', NULL, 12.00000000, 0.50000000, '2025-08-15 17:34:47', '2025-08-15 17:34:47'),
-(38, 2, NULL, '2134324', 'usdt', '0', NULL, 1.00000000, 0.70000000, '2025-08-15 18:03:43', '2025-08-15 18:03:43'),
-(43, 8, '0922463247', NULL, 'phone', '0', NULL, 4.00000000, 0.50000000, '2025-08-19 23:23:08', '2025-08-19 23:23:08'),
-(44, 2, NULL, '23223', 'usdt', '0', NULL, 12.00000000, 0.70000000, '2025-08-21 02:57:16', '2025-08-21 02:57:16');
+(37, 2, '123123', NULL, 'phone', '2', 'admin', 12.00000000, 0.50000000, '2025-08-15 17:34:47', '2025-08-22 06:27:57'),
+(38, 2, NULL, '2134324', 'usdt', '1', NULL, 1.00000000, 0.70000000, '2025-08-15 18:03:43', '2025-08-22 06:28:01'),
+(43, 8, '0922463247', NULL, 'phone', '1', NULL, 4.00000000, 0.50000000, '2025-08-19 23:23:08', '2025-08-22 06:28:05'),
+(44, 2, NULL, '23223', 'usdt', '0', NULL, 12.00000000, 0.70000000, '2025-08-21 02:57:16', '2025-08-21 02:57:16'),
+(45, 2, '920000000', NULL, 'phone', '0', NULL, 120.00000000, 0.50000000, '2025-08-22 04:20:11', '2025-08-22 04:20:11'),
+(46, 2, NULL, '44', 'usdt', '0', NULL, 10.00000000, 0.70000000, '2025-08-22 04:31:53', '2025-08-22 04:31:53'),
+(47, 8, NULL, '754225', 'usdt', '1', NULL, 4.00000000, 0.70000000, '2025-08-22 04:32:42', '2025-08-22 04:53:07'),
+(48, 2, NULL, '23432432', 'usdt', '0', NULL, 10.00000000, 0.70000000, '2025-08-22 05:51:03', '2025-08-22 05:51:03'),
+(49, 2, '920000000', NULL, 'phone', '0', NULL, 1200.00000000, 10.00000000, '2025-08-22 06:13:51', '2025-08-22 06:13:51'),
+(50, 2, NULL, '567567', 'usdt', '0', NULL, 123.00000000, 10.00000000, '2025-08-22 06:14:37', '2025-08-22 06:14:37');
 
 -- --------------------------------------------------------
 
@@ -2723,7 +2747,8 @@ ALTER TABLE `social_checks`
 -- Indexes for table `subscribers`
 --
 ALTER TABLE `subscribers`
-  ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `subscribers_email_unique` (`email`);
 
 --
 -- Indexes for table `support_attachments`
@@ -2817,7 +2842,7 @@ ALTER TABLE `admins`
 -- AUTO_INCREMENT for table `admin_notifications`
 --
 ALTER TABLE `admin_notifications`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=92;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=93;
 
 --
 -- AUTO_INCREMENT for table `admin_password_resets`
@@ -2859,7 +2884,7 @@ ALTER TABLE `commission_logs`
 -- AUTO_INCREMENT for table `deposits`
 --
 ALTER TABLE `deposits`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=163;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=164;
 
 --
 -- AUTO_INCREMENT for table `extensions`
@@ -2907,13 +2932,13 @@ ALTER TABLE `languages`
 -- AUTO_INCREMENT for table `levels`
 --
 ALTER TABLE `levels`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `level_benefits`
 --
 ALTER TABLE `level_benefits`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
 
 --
 -- AUTO_INCREMENT for table `migrations`
@@ -2925,7 +2950,7 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT for table `notification_logs`
 --
 ALTER TABLE `notification_logs`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=91;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=93;
 
 --
 -- AUTO_INCREMENT for table `notification_templates`
@@ -2991,7 +3016,7 @@ ALTER TABLE `reward_items`
 -- AUTO_INCREMENT for table `reward_orders`
 --
 ALTER TABLE `reward_orders`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
 
 --
 -- AUTO_INCREMENT for table `services`
@@ -3003,13 +3028,13 @@ ALTER TABLE `services`
 -- AUTO_INCREMENT for table `service_views`
 --
 ALTER TABLE `service_views`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=69;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=70;
 
 --
 -- AUTO_INCREMENT for table `social_checks`
 --
 ALTER TABLE `social_checks`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=326;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=332;
 
 --
 -- AUTO_INCREMENT for table `subscribers`
@@ -3039,7 +3064,7 @@ ALTER TABLE `support_tickets`
 -- AUTO_INCREMENT for table `transactions`
 --
 ALTER TABLE `transactions`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=292;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=297;
 
 --
 -- AUTO_INCREMENT for table `users`
@@ -3051,31 +3076,31 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `user_benefit_overrides`
 --
 ALTER TABLE `user_benefit_overrides`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
 -- AUTO_INCREMENT for table `user_levels`
 --
 ALTER TABLE `user_levels`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `user_level_histories`
 --
 ALTER TABLE `user_level_histories`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT for table `user_logins`
 --
 ALTER TABLE `user_logins`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=91;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=92;
 
 --
 -- AUTO_INCREMENT for table `withdrawals`
 --
 ALTER TABLE `withdrawals`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=45;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=51;
 
 --
 -- AUTO_INCREMENT for table `withdraw_requests`

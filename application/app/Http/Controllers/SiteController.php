@@ -21,7 +21,7 @@ class SiteController extends Controller
         ]);
         $reference = $request->input('reference');
         if ($reference) {
-            $reference = filter_var($reference, FILTER_SANITIZE_STRING);
+            $reference = strip_tags($reference);
             session()->put('reference', $reference);
         }
         $pageTitle = 'Home';
@@ -49,7 +49,7 @@ class SiteController extends Controller
     {
         $this->validate($request, [
             'name' => 'required',
-            'email' => 'required',
+            'email' => 'required|email',
             'subject' => 'required|string|max:255',
             'message' => 'required',
         ]);
@@ -194,7 +194,7 @@ class SiteController extends Controller
     public function subscribe(Request $request){
 
         $request->validate([
-            'email'=>'required|unique:subscribers',
+            'email' => 'required|email|unique:subscribers,email',
         ]);
 
         $subscribe=new Subscriber();

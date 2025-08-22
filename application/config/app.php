@@ -66,6 +66,8 @@ return [
 
     'admin_prefix' => env('ADMIN_ROUTE', 'admin'),
 
+    'trusted_proxies' => array_filter(explode(',', env('TRUSTED_PROXIES', ''))),
+
     /*
     |--------------------------------------------------------------------------
     | Application Timezone

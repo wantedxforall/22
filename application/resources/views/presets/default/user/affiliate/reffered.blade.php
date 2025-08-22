@@ -10,7 +10,7 @@
                             <div class="input-group">
                                 <input type="text" class="form-control form--control rounded-custom" name="reffer_link"
                                     id="validationCustomUsername" placeholder="@lang('Username')" aria-describedby="inputGroupPrepend"
-                                    required value="{{ route('home') }}?reference={{ $user->username }}" readonly>
+                                    required value="{{ route('home') }}?reference={{ e($user->username) }}" readonly>
 
                                 <button type="button" class="input-group-text btn btn--base copytext" id="inputGroupPrepend"
                                     style="border-radius: 0px;"> <i class="fa fa-copy"></i> </button>
@@ -21,7 +21,7 @@
                                 <form action="{{ route('user.refferlink.send') }}" method="POST" class="mb--16">
                                     @csrf
                                     <input type="hidden" name="reffer_link"
-                                        value="{{ route('home') }}?reference={{ $user->username }}">
+                                        value="{{ route('home') }}?reference={{ e($user->username) }}">
 
                                     <div class="form-group mb-3">
                                         <label class="mb-3">@lang('Email to send Reffer Link')</label>
